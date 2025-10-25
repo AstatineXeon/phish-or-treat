@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phish or Treat 🎃</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>🎃 Phish or Treat 👻</h1>
+
+    {% if result %}
+        <p class="result">{{ result }}</p>
+    {% endif %}
+
+    <div class="message">
+        <p><b>From:</b> {{ message.sender }}</p>
+        <p><b>Subject:</b> {{ message.subject }}</p>
+    </div>
+
+    <form action="/guess" method="post">
+        <button name="choice" value="phish">Phish 🐟</button>
+        <button name="choice" value="treat">Treat 🍬</button>
+    </form>
+
+    <p class="score">Your score: {{ score }}</p>
+</body>
+</html>

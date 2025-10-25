@@ -1,0 +1,40 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #0d0d0d;
+    color: #ff7518;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    background-color: #ff7518;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffaa33;
+}
+
+.message {
+    border: 2px solid #ff7518;
+    padding: 15px;
+    margin: 20px auto;
+    width: 400px;
+    background-color: #1a1a1a;
+}
+
+.result {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.score {
+    margin-top: 30px;
+    font-size: 20px;
+}
