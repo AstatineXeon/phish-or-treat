@@ -31,6 +31,6 @@ How It Works
 -Safe, interactive way to learn about phishing attacks.
 
 Author:
-Kayseon/AstatineXeon
+AstatineXeon
 
 
